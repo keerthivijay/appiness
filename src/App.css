@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.wrapper {
+    min-height: 500px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 80%;
+}
+
+.logout-link {
+
+  margin: 30px;
+  width: 10%;
+  cursor: pointer;
+}
+
+footer{
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f452;
+}
+
+.page-header {
+  padding: 10px;
+}
+
+.error-msg {
+  color: red;
+}
+#login-box{
+  text-align: center;
 }
